@@ -6,13 +6,13 @@ export default function Home() {
         href="/livohaus"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
-        livohaus
+        ghs 1
       </Link>
       <Link
         href="/measure"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
-        measure
+        ghs 2
       </Link>
     </div>
   );
