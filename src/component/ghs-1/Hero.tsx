@@ -42,7 +42,7 @@ export default function Hero() {
             <div className="max-w-4xl">
               <BlurText
                 text="Building Spaces That Reflect You — With Craft, Care and Complete Control"
-                className="text-[36px] xl:text-[50px] font-semibold leading-[1.1] tracking-"
+                className="text-[36px] xl:text-[50px]  leading-[1.1] "
                 delay={30}
                 animateBy="words"
                 direction="bottom"

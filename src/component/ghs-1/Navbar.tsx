@@ -26,7 +26,7 @@ export default function Navbar() {
               className="w-8 h-8"
             />
           </div>
-          <span className="text-[28px] font-bold">Good Homestory</span>
+          <span className="text-[28px] ">Good Homestory</span>
         </div>
 
         {/* Links */}

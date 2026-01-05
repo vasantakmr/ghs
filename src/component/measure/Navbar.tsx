@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className="flex items-start">
         <Link
           href="/"
-          className="font-bold text-[24px] tracking-tight whitespace-nowrap"
+          className=" text-[24px]  whitespace-nowrap"
         >
           Good Homestory
         </Link>
