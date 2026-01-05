@@ -19,7 +19,7 @@ export default function Home() {
         href="/tessera"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
-        Tessera
+        ghs-3
       </Link>
     </div>
   );
