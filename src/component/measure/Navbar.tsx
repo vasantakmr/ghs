@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { easeIn, easeInOut, motion, AnimatePresence } from "motion/react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [time, setTime] = useState("");
@@ -29,12 +30,15 @@ export default function Navbar() {
   return (
     <nav className="w-full max-w-[1560px] mx-auto grid grid-rows-1 grid-cols-4 gap-x-5 p-5 relative overflow-hidden text-white items-start z-50">
       {/* Column 1: Logo */}
-      <div className="flex items-start">
-        <Link
-          href="/"
-          className=" text-[24px]  whitespace-nowrap"
-        >
-          Good Homestory
+      <div className="shrink-0">
+        <Link href="/" className=" text-[24px]  whitespace-nowrap">
+          <Image
+            src="/Hero/ghs-logo.png"
+            alt="Logo"
+            width={100}
+            height={20}
+            className="h-10 w-32"
+          />
         </Link>
         {/* <Link
           href="/"
