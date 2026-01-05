@@ -14,6 +14,13 @@ export default function Home() {
       >
         measure
       </Link>
+
+      <Link
+        href="/tessera"
+        className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
+      >
+        Tessera
+      </Link>
     </div>
   );
 }
