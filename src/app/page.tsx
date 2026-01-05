@@ -15,12 +15,12 @@ export default function Home() {
         ghs 2
       </Link>
 
-      <Link
+      {/* <Link
         href="/ghs-3"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
         ghs-3
-      </Link>
+      </Link> */}
     </div>
   );
 }
