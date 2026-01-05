@@ -28,7 +28,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="w-full max-w-[1560px] mx-auto grid grid-rows-1 grid-cols-4 gap-x-5 p-5 relative overflow-hidden text-white items-start z-50">
+    <nav className="w-full max-w-[1560px] mx-auto grid grid-rows-1 grid-cols-2 lg:grid-cols-4 gap-x-5 p-5 relative overflow-hidden text-white items-start z-50">
       {/* Column 1: Logo */}
       <div className="shrink-0">
         <Link href="/" className=" text-[24px]  whitespace-nowrap">
@@ -49,13 +49,13 @@ export default function Navbar() {
       </div>
 
       {/* Column 2: Info */}
-      <div className="flex flex-col text-[18px] font-medium leading-tight invisible xl:visible">
+      <div className="hidden flex-col text-[18px] font-medium leading-tight lg:flex">
         <span>Work that holds up.</span>
         <span>India {time}</span>
       </div>
 
       {/* Column 3: Menu */}
-      <div className="flex justify-start">
+      <div className="hidden lg:flex justify-start">
         {/* Mobile/Tablet: Static Links */}
         <div className="hidden lg:flex gap-5 xl:hidden">
           <Link
