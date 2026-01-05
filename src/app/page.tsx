@@ -9,14 +9,14 @@ export default function Home() {
         ghs 1
       </Link>
       <Link
-        href="/measure"
+        href="/ghs-2"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
         ghs 2
       </Link>
 
       <Link
-        href="/tessera"
+        href="/ghs-3"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
         ghs-3
