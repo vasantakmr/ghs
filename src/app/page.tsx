@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen flex flex-wrap gap-3 items-center justify-center antialiased">
       <Link
-        href="/livohaus"
+        href="/ghs-1"
         className="text-lg px-6 py-2 bg-foreground text-background rounded-md"
       >
         ghs 1
